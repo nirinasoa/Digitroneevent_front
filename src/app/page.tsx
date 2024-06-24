@@ -6,6 +6,7 @@ import FormContact from "@/components/contact";
 export default function Home() {
   return (
     <div className="">
+      {/** Navbar */}
       <Navbar />
       <div className="p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <EventCard
